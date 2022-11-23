@@ -21,9 +21,9 @@ public class CustomJsonPrinter implements NodePrinter {
     private final boolean outputNodeType;
 
 
-    public CustomJsonPrinter(final boolean outputNodeType) {
-        this.outputNodeType = outputNodeType;
-    }
+        public CustomJsonPrinter(final boolean outputNodeType) {
+            this.outputNodeType = outputNodeType;
+        }
 
 
     private static String q(final String value) {
